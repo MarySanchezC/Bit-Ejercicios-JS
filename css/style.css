@@ -1,0 +1,25 @@
+body {
+
+margin: 0 auto;
+background-color: black;
+justify-content: center;
+text-align: center;
+color: aliceblue;
+}
+
+button {
+
+border-radius: 10%;
+background-color: brown;
+color: aliceblue;
+font-size: larger;
+
+}
+
+
+.contraseña{
+
+background-color: aliceblue;
+
+}
+
