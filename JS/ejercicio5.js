@@ -1,18 +1,5 @@
-const contra =document.getElementById("contraseña");
-
-
-const password = () => {
-  let usuario = prompt("Por favor ingresar contraseña");
-  let password = "contraseña123";
-
-  if (usuario == password) {
-    alert("Bienvenido querido usuario!");
-  } else {
-    alert("Contraseña incorrecta, intente nuevamente");
-    password();
+function usrpas(){
+  if (document.form1.txt.value=="admin" && document.form1.num.value=="12345")
+  alert ("Bienvenido usuario!")
+  else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
   }
-};
-
-contra.onclick = function() {
-    password() 
-};

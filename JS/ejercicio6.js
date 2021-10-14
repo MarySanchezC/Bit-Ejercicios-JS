@@ -1,25 +1,19 @@
-const image = document.getElementById("image");
+window.onload = function () {
+  var img = document.getElementById("img");
+  img.addEventListener("mouseover", cambiarImagen);
+  img.addEventListener("mouseout", imagenInicial);
 
-image.style.visibility = "visible";
+  function cambiarImagen() {
+    this.setAttribute(
+      "src",
+      "https://i.pinimg.com/564x/85/b5/8c/85b58cbab38f1bff46e1c8a212c55875.jpg"
+    );
+  }
 
-const show = () => {
-    if (image.style.visibility == "visible") {
-      image.style.borderRadius = "100%";
-    } else {
-      image.style.visibility = "visible";
-    }
-  };
-const show2 = () => {
-    if (image.style.visibility == "visible") {
-      image.style.borderRadius = "0%" ;
-    } else {
-      image.style.visibility = "visible";
-    }
-  };
-  
-  image.onmouseover= function(){
-      show();
+  function imagenInicial() {
+    this.setAttribute(
+      "src",
+      "https://i.pinimg.com/564x/1b/4c/74/1b4c74106567b5a8000f44190e7c0b53.jpg"
+    );
   }
-  image.onmouseout= function(){
-      show2();
-  }
+};
