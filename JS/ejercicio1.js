@@ -1,4 +1,3 @@
-
 const nombretext = document.getElementById("nombretext");
 const sueldotext = document.getElementById("sueldotext");
 const nombre1 = "Corporacion umbrella";
