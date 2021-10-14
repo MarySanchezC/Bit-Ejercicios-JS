@@ -1,7 +1,7 @@
 
 const nombretext = document.getElementById("nombretext");
 const sueldotext = document.getElementById("sueldotext");
-const nombre1 = "Mary from the sea";
+const nombre1 = "Corporacion umbrella";
 const sueldo2 = 6000000;
 const btn = document.getElementById("btn");
 const write2 = () => {
